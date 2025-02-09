@@ -248,3 +248,66 @@ export const dailyLifeData = [
     image: "/daily-life.webp"
   },
 ];
+
+export const islamicVideoData =[
+{
+  link: "https://www.youtube.com/embed/wOICupV9IcM?si=zqXKDxFOmr53at28",
+  icon: (
+    <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 576 512"
+    className="text-red-600"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+  </svg>
+  ),
+  title: "Tamirul ummah madrasha song",
+  boldTitle: "পরিবেশনায়: ",
+  description: "MD NAIMUL ISLAM NIHAN,SAYMA ISLAM TONNI,SUMAIYA ISLAM TANHA,SAIDA SULTANA NAFISA."
+},
+{
+  link: "https://www.youtube.com/embed/sQbK9I_X0xY?si=wGgQ1qDc2UtolHUy",
+  icon: (
+    <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 576 512"
+    className="text-red-600"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+  </svg>
+  ),
+  title: "বিজ্ঞান মেলা",
+  boldTitle: "পরিবেশনায়:",
+  description: "TamirulUmmahMadrsha Science Fair"
+},
+{
+  link: "https://www.youtube.com/embed/-DtawBC6SgA?si=lY2CSlJXrEj__XQ3",
+  icon: (
+    <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 576 512"
+    className="text-red-600"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+  </svg>
+  ),
+  title: "Our Student Naimul Islam Nihan",
+  boldTitle: "পরিবেশনায়:",
+  description: "সবার সেরা শিল্পী তুমি রাব্বুল আলামীন | Sobar Sera Shilpi | Naimul Islam Nihan | Hamd."
+},
+];

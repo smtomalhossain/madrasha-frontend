@@ -43,13 +43,13 @@ const Footer = () => {
         <div className="w-full">
           <div className="relative overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.823203487193!2d91.15945485136484!3d23.448881610699075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547ee86acf89cf%3A0x2d8ca31466ad1214!2z4Kak4Ka-4Kau4Ka_4Kaw4KeB4KayIOCmieCmruCnjeCmruCmvuCmueCnjSDgpq7gpr7gpqbgp43gprDgpr7gprjgpr7gprk!5e0!3m2!1sbn!2sbd!4v1737728086612!5m2!1sbn!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.13768120137388!2d89.71861388314797!3d23.23570255854783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ffc9003355034d%3A0xf13ee2c0ef10b2f5!2zQXQgdGFoZml6IGludGVybmF0aW9uYWwgbWFkcmFzaGEga2FzaGlhbmkgR29wYWxnb25qLuCmhuCmpCDgpqTgpr7gprngpqvgpr_gppwg4KaH4Kao4KeN4Kaf4Ka-4Kaw4Kao4KeN4Kav4Ka-4Ka24Kao4Ka-4KayIOCmruCmvuCmpuCnjeCmsOCmvuCmuOCmviwg4KaV4Ka-4Ka24Ka_4Kef4Ka-4Kao4KeALCDgppfgp4vgpqrgpr7gprLgppfgpp7gp43gppzgpaQ!5e0!3m2!1sen!2sbd!4v1739128595186!5m2!1sen!2sbd"
               width="600"
               height="450"
             //   style="border:0"
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              class="w-full h-96 md:h-[450px] border-4 border-green-200 "
+            //   referrerpolicy="no-referrer-when-downgrade"
+              className="w-full h-96 md:h-[450px] border-4 border-green-200 "
             ></iframe>
           </div>
         </div>

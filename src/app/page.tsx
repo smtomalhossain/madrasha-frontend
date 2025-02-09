@@ -1,6 +1,7 @@
 import {
   campusData,
   dailyLifeData,
+  islamicVideoData,
   servicesData,
   studentLifeData,
 } from "@/lib/data";
@@ -11,6 +12,7 @@ import ServicesCard from "./components/ServicesCard";
 import StudentLifeCard from "./components/StudentLifeCard";
 import DailyLifeCard from "./components/DailyLifeCard";
 import AdmissionProcessCard from "./components/AdmissionProcessCard";
+import IslamicVideoCard from "./components/IslamicVideoCard";
 
 export default function Home() {
   return (
@@ -89,6 +91,29 @@ export default function Home() {
         </section>
         <section className="w-full py-12 bg-gray-50">
           <AdmissionProcessCard/>
+        </section>
+        <section className="w-full py-12 bg-gray-50">
+            <div className="container mx-auto px-4">
+                <div className="text-center mb-8">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-4">ইসলামিক ভিডিও গ্যালারি</h2>
+                    <p className="text-gray-600 leading-relaxed">
+                    আমাদের সংগ্রহ থেকে শিক্ষণীয় ইসলামিক লেকচার এবং ইভেন্টগুলি দেখুন। জ্ঞানী স্পিকারদের থেকে শিখুন।
+                    </p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {islamicVideoData.map ((video, index) => (
+                    <IslamicVideoCard
+                    key={index}
+                    link={video.link}
+                    icon={video.icon}
+                    title={video.title}
+                    boldTitle={video.boldTitle}
+                    description={video.description}
+                    />
+
+                  ))}
+                </div>
+            </div>
         </section>
       </div>
     </main>
