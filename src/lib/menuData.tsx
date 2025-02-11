@@ -5,7 +5,7 @@ export const menuItem = [
       items: [
         {
           label: "ভর্তি",
-          href: "/",
+          href: "/admission",
         },
         {
           label: "আমাদের সম্পর্কে ",
@@ -13,7 +13,7 @@ export const menuItem = [
         },
         {
           label: "সেবা সমূহ",
-          href: "/",
+          href: "/services",
         },
         {
           label: "মিডিয়া",
@@ -21,7 +21,7 @@ export const menuItem = [
         },
         {
           label: "একাডেমিক ",
-          href: "/",
+          href: "/curriculum",
         },
         {
           label: "যোগাযোগ করুন",
