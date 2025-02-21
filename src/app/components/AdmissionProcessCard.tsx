@@ -1,3 +1,4 @@
+"use client"
 const AdmissionProcessCard = () => {
   return (
     <div className="container mx-auto px-4">
@@ -90,7 +91,7 @@ const AdmissionProcessCard = () => {
           </ul>
           <a
             className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition duration-300 "
-            href="/admition"
+            href="/admission"
           >
             এখনই আবেদন করুন
           </a>

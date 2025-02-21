@@ -4,28 +4,28 @@ export const menuItem = [
       title: "menu",
       items: [
         {
-          label: "ভর্তি",
-          href: "/admission",
-        },
-        {
-          label: "আমাদের সম্পর্কে ",
-          href: "/",
+          label: "আমাদের অর্জন",
+          href: "our-achievement/",
         },
         {
           label: "সেবা সমূহ",
           href: "/services",
         },
         {
-          label: "মিডিয়া",
-          href: "/",
+          label: "বিভাগসমূহ",
+          href: "/departments",
         },
         {
           label: "একাডেমিক ",
           href: "/curriculum",
         },
         {
+          label: "পরামর্শ",
+          href: "/advice",
+        },
+        {
           label: "যোগাযোগ করুন",
-          href: "/",
+          href: "/contact-us",
         },
       ],
     },
