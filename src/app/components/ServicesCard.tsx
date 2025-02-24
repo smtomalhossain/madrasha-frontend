@@ -1,7 +1,7 @@
-import React from "react";
+import React, { JSX } from "react";
 
 interface servicesCardProps {
-  icon: string;
+  icon: JSX.Element;
   title: string;
   subTitle: string;
 }

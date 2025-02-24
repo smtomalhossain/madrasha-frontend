@@ -1,5 +1,7 @@
+import { JSX } from "react";
+
 interface KnowledgeCardProps {
-  icon: string;
+  icon: JSX.Element;
   title: string;
   description: string;
 }

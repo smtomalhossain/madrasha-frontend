@@ -1,5 +1,4 @@
 import React from "react";
-import StudentList from "../student/page";
 
 const Page = () => {
   return (
@@ -181,7 +180,7 @@ const Page = () => {
                 name="class"
                 className="w-full p-1 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
               >
-                <option value="" disabled="">
+                <option value="" disabled>
                   Select a class
                 </option>
                 <option value="nursery">Nursery</option>

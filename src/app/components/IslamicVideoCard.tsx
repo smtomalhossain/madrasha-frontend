@@ -1,6 +1,8 @@
+import { JSX } from "react";
+
 interface IslamicVideoCardProps {
     link: string;
-    icon: string;
+    icon: JSX.Element;
     title: string;
     boldTitle: string;
     description: string;

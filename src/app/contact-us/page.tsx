@@ -2,13 +2,18 @@ import { contactUsData } from "@/lib/data";
 import ContactForm from "../components/ContactForm";
 import SocialIcons from "../components/SocialIcons";
 
+// interface ContactPageProps {
+//     icon?: string | undefined;
+//     title?: string | undefined;
+//     description?: string | undefined;
+// }
 interface ContactPageProps {
     icon: React.ReactNode;
     title: string;
     description: string;
 }
 
-const ContactPage:React.FC<ContactPageProps> = () => {
+const ContactPage = () => {
   return (
     <div className="bg-green-100  pt-14">
       <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8">
