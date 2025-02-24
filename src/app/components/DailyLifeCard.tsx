@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { JSX } from "react";
 
 interface DailyLifeCardProps {
-    icon: string;
+    icon: JSX.Element;
     title: string;
     description:string;
     image: string;

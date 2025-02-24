@@ -1,5 +1,7 @@
+import { JSX } from "react";
+
 interface OurHeritageProps {
-icon: string;
+icon: JSX.Element;
 title: string;
 description: string;
 }
