@@ -11,7 +11,7 @@ const ServicesPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-800">আমাদের ঐতিহ্য</h2>
             <p className="text-lg text-gray-600 mt-4 leading-relaxed max-w-3xl mx-auto">
-            আত-তাফিজ ইন্টারন্যাশনাল মাদ্রাসা জ্ঞান ও বিশ্বাসের যাত্রা
+            আত-তাহফিজ ইন্টারন্যাশনাল মাদ্রাসা জ্ঞান ও বিশ্বাসের যাত্রা
               শতাব্দীর পরম্পরায় সমৃদ্ধ। এখানে ঐতিহ্য ও আধুনিকতার সমন্বয়ে
               ভবিষ্যৎ নেতাদের গড়ে তোলা হয়।
             </p>

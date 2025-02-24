@@ -3,7 +3,7 @@ import ContactForm from "../components/ContactForm";
 import SocialIcons from "../components/SocialIcons";
 
 interface ContactPageProps {
-    icon: string;
+    icon: React.ReactNode;
     title: string;
     description: string;
 }

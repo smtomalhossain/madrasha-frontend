@@ -41,7 +41,7 @@ const Header = () => {
             />
             <div className="text-center md:flex  hidden  md:text-left  flex-col gap-2 order-3 md:order-none">
               <h1 className="text-lg md:text-3xl font-bold text-green-100 whitespace-nowrap">
-              আত-তাফিজ ইন্টারন্যাশনাল মাদ্রাসা
+              আত-তাহফিজ ইন্টারন্যাশনাল মাদ্রাসা
               </h1>
               <p className="text-green-200">কাশিয়ানি বাজার, কাশিয়ানি</p>
             </div>

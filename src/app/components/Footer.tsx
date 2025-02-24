@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div className="col-span-1">
-                    <h2 className="text-2xl font-bold mb-2">আত-তাফিজ ইন্টারন্যাশনাল মাদরাসা</h2>
+                    <h2 className="text-2xl font-bold mb-2">আত-তাহফিজ ইন্টারন্যাশনাল মাদরাসা</h2>
                     <p className="text-gray-200 text-sm">
                     এক প্রখ্যাত ইসলামিক প্রতিষ্ঠান যা একাডেমিক এবং ধর্মীয় উৎকর্ষতার উপর গুরুত্ব দেয়।
                     </p>
