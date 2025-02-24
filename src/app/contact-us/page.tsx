@@ -7,12 +7,6 @@ import SocialIcons from "../components/SocialIcons";
 //     title?: string | undefined;
 //     description?: string | undefined;
 // }
-interface ContactPageProps {
-    icon: React.ReactNode;
-    title: string;
-    description: string;
-}
-
 const ContactPage = () => {
   return (
     <div className="bg-green-100  pt-14">

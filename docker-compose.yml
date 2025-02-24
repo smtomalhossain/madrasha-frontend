@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3000"
+    container_name: school-dashboard
+    networks:
+      - npm_net
+
+networks:
+  npm_net:
+    external: true
